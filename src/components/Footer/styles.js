@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center; 
 
   height: 60px;
   color: #fff;
@@ -15,10 +14,12 @@ export const Container = styled.div`
   width: 100%;
   max-width: 768px;
 
-  nav {
+  nav {   
+    width: 100%;
     display: flex;
+    justify-content: space-around;
     gap: 0.75rem;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 
     a {
       color: ${(props) => props.theme["gray-400"]};
