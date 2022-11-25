@@ -29,8 +29,8 @@ export const CardService = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex: 1;
-  padding: 1rem 2rem;
+  flex: 2;
+  padding: 1.5rem 1rem;
 
   background-color: ${(props) => props.theme["gray-800"]};
   border-left: 6px solid ${(props) => props.theme["gray-600"]};
@@ -40,7 +40,15 @@ export const CardService = styled.div`
 export const ContentCard = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.3rem;
+
+  img {
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    color: ${(props) => props.theme["gray-400"]};
+  }
 `;
 
 export const Cabelo = styled.div`

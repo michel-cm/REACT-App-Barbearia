@@ -20,7 +20,7 @@ export function Home() {
         <C.CardService>
           <C.ContentCard>
             <img src={maquinaWhite} alt="" />
-            <p>Cabelo</p>
+            <span>Cabelo</span>
             <p>R$ 20,00</p>
           </C.ContentCard>
           <BsChevronRight />
@@ -28,7 +28,7 @@ export function Home() {
         <C.CardService>
           <C.ContentCard>
             <img src={barbaWhite} alt="" />
-            <p>Barba</p>
+            <span>Barba</span>
             <p>R$ 25,00</p>
           </C.ContentCard>
           <BsChevronRight />
@@ -36,7 +36,7 @@ export function Home() {
         <C.CardService>
           <C.ContentCard>
             <img src={navalhaWhite} alt="" />
-            <p>Acabamento</p>
+            <span>Acabamento</span>
             <p>R$ 10,00</p>
           </C.ContentCard>
           <BsChevronRight />
@@ -44,7 +44,7 @@ export function Home() {
         <C.CardService>
           <C.ContentCard>
             <img src={completoWhite} alt="" />
-            <p>Completo</p>
+            <span>Completo</span>
             <p>R$ 40,00</p>
           </C.ContentCard>
           <BsChevronRight />
