@@ -90,8 +90,7 @@ export function Home() {
           </C.ContentCard>
           <BsChevronRight />
         </C.Card>
-      </C.AreaCards>
-      <C.AreaCards>
+
         <C.Card>
           <C.ContentCard>
             <img src={maquinaWhite} alt="" />

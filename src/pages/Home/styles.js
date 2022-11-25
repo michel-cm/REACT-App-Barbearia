@@ -16,8 +16,8 @@ export const AreaTitleSection = styled.div`
 
 export const AreaCards = styled.div`
   display: flex;
-  gap: 1rem;
-  justify-content: space-between;
+  gap: 1.75rem;
+  justify-content: flex-start;
   flex-wrap: wrap;
 
   margin-bottom: 3rem;
@@ -31,7 +31,8 @@ export const Card = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex: 2;
+  min-width: 30%;
+  flex: 1;
   padding: 1.5rem 1rem;
 
   background-color: ${(props) => props.theme["gray-800"]};
