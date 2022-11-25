@@ -4,10 +4,10 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
-  height: 60px;
+  height: 50px;
   color: #fff;
-  padding: 2rem 0.75rem;
-
+  padding: 0rem 0.75rem;
+ 
   position: fixed;
 
   bottom: 0;
@@ -16,26 +16,28 @@ export const Container = styled.div`
 
   z-index: 99;
 
+  background-color: ${(props) => props.theme["gray-900"]};
+
   nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    gap: 0.75rem;
+
     font-size: 1.5rem;
 
     a {
       color: ${(props) => props.theme["gray-400"]};
       text-decoration: none;
 
-      border-top: 4px solid transparent;
-      border-bottom: 4px solid transparent;
+      border-top: 3px solid transparent;
+      border-bottom: 3px solid transparent;
 
       &:hover {
-        border-bottom: 4px solid ${(props) => props.theme.secondary};
+        border-bottom: 3px solid ${(props) => props.theme.secondary};
       }
 
       &.active {
-        border-bottom: 4px solid ${(props) => props.theme.secondary};
+        border-bottom: 3px solid ${(props) => props.theme.secondary};
         color: ${(props) => props.theme["gray-100"]};
       }
     }
