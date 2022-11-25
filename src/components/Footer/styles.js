@@ -6,7 +6,7 @@ export const Container = styled.div`
 
   height: 60px;
   color: #fff;
-  padding: 2rem 1rem;
+  padding: 2rem 0.7rem;
   
   position: fixed;
   

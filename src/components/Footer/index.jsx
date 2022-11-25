@@ -15,11 +15,11 @@ export function Footer() {
         <NavLink to="agendamentos" title="agendamentos">
           <BsScissors />
         </NavLink>
-        <NavLink to="agendamentos" title="agendamentos">
-          <CiShoppingBasket />
+        <NavLink to="shop" title="shop">
+          <CiShoppingBasket  size={25}/>
         </NavLink>
-        <NavLink to="agendamentos" title="agendamentos">
-          <BsPerson />
+        <NavLink to="perfil" title="perfil">
+          <BsPerson size={25}/>
         </NavLink>
       </nav>
     </C.Container>
