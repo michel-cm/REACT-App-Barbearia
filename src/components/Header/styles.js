@@ -18,4 +18,8 @@ export const Container = styled.div`
       font-weight: bold;
     }
   }
+
+  img {
+    width: 34px;
+  }
 `;
