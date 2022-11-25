@@ -11,13 +11,26 @@ import barbaWhite from "../../assets/barbaWhite.png";
 export function Home() {
   return (
     <C.Container>
-      <div>
-        Home
-        <img src={maquinaWhite} alt="" />
-        <img src={barbaWhite} alt="" />
-        <img src={navalhaWhite} alt="" />
-        <img src={completoWhite} alt="" />
-      </div>
+      <C.AreaTitleSection>
+        <p>
+          Qual<span> serviço</span>
+        </p>
+        <p>você está precisando?</p>
+      </C.AreaTitleSection>
+      <C.AreaServices>
+        <div>
+          <img src={maquinaWhite} alt="" />
+        </div>
+        <div>
+          <img src={barbaWhite} alt="" />
+        </div>
+        <div>
+          <img src={navalhaWhite} alt="" />
+        </div>
+        <div>
+          <img src={completoWhite} alt="" />
+        </div>
+      </C.AreaServices>
     </C.Container>
   );
 }
