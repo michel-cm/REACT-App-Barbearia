@@ -2,19 +2,21 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  align-items: center; 
+  align-items: center;
 
   height: 60px;
   color: #fff;
   padding: 2rem 0.75rem;
-  
+
   position: fixed;
-  
+
   bottom: 0;
   width: 100%;
   max-width: 768px;
 
-  nav {   
+  z-index: 99;
+
+  nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
