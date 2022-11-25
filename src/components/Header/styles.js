@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   height: 60px;
   color: #fff;
-  padding: 2.2rem 0.7rem;
+  padding: 2.2rem 0.75rem;
 
   div {
     display: flex;

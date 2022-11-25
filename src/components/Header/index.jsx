@@ -7,7 +7,7 @@ export function Header() {
       <img src="https://github.com/twbs.png?size=30" />
       <div>
         <p>Bom dia</p>
-        <span>Michel Corrêa Martins da Silva</span>
+        <span>Michel Corrêa Martins</span>
       </div>
     </C.Container>
   );
