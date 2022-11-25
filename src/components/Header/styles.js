@@ -7,15 +7,14 @@ export const Container = styled.div`
 
   height: 60px;
   color: #fff;
-  padding: 2rem 3rem;
+  padding: 2rem 1rem;
 
   div {
     display: flex;
     gap: 0.4rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 
-    span {
-      font-size: 0.9rem;
+    span {     
       font-weight: bold;
     }
   }
