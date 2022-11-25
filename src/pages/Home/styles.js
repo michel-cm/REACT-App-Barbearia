@@ -74,8 +74,8 @@ export const ContentCardProduct = styled.div`
   gap: 0.3rem;
 
   img {
-    width: 8rem;
-    margin-bottom: 0.75rem;
+    width: 7rem;
+    margin-bottom: 0.2rem;
   }
 
   p {
@@ -88,7 +88,7 @@ export const CardProduct = styled.div`
   justify-content: center;
   align-items: center;
   flex: 1;
-  padding: 1rem;
+  padding: 1rem 0;
 
   background-color: ${(props) => props.theme["gray-800"]};
   border-left: 6px solid ${(props) => props.theme["gray-600"]};

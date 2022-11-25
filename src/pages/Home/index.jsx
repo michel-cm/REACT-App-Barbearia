@@ -63,20 +63,28 @@ export function Home() {
       <C.AreaCardsShop>
         <C.CardProduct>
           <C.ContentCardProduct>
-            <img
-              src={minoxi}
-              alt=""
-            />
+            <img src={minoxi} alt="" />
             <span>Minoxidil kirkland</span>
             <p>R$ 20,00</p>
           </C.ContentCardProduct>
         </C.CardProduct>
         <C.CardProduct>
           <C.ContentCardProduct>
-            <img
-              src={boxminoxi}
-              alt=""
-            />
+            <img src={boxminoxi} alt="" />
+            <span>Loção pós barba </span>
+            <p>R$ 25,00</p>
+          </C.ContentCardProduct>
+        </C.CardProduct>
+        <C.CardProduct>
+          <C.ContentCardProduct>
+            <img src={boxminoxi} alt="" />
+            <span>Loção pós barba </span>
+            <p>R$ 25,00</p>
+          </C.ContentCardProduct>
+        </C.CardProduct>
+        <C.CardProduct>
+          <C.ContentCardProduct>
+            <img src={boxminoxi} alt="" />
             <span>Loção pós barba </span>
             <p>R$ 25,00</p>
           </C.ContentCardProduct>
