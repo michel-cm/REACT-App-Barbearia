@@ -91,6 +91,40 @@ export function Home() {
           <BsChevronRight />
         </C.Card>
       </C.AreaCards>
+      <C.AreaCards>
+        <C.Card>
+          <C.ContentCard>
+            <img src={maquinaWhite} alt="" />
+            <span>Cabelo</span>
+            <p>R$ 20,00</p>
+          </C.ContentCard>
+          <BsChevronRight />
+        </C.Card>
+        <C.Card>
+          <C.ContentCard>
+            <img src={barbaWhite} alt="" />
+            <span>Barba</span>
+            <p>R$ 25,00</p>
+          </C.ContentCard>
+          <BsChevronRight />
+        </C.Card>
+        <C.Card>
+          <C.ContentCard>
+            <img src={navalhaWhite} alt="" />
+            <span>Acabamento</span>
+            <p>R$ 10,00</p>
+          </C.ContentCard>
+          <BsChevronRight />
+        </C.Card>
+        <C.Card>
+          <C.ContentCard>
+            <img src={completoWhite} alt="" />
+            <span>Completo</span>
+            <p>R$ 40,00</p>
+          </C.ContentCard>
+          <BsChevronRight />
+        </C.Card>
+      </C.AreaCards>
     </C.Container>
   );
 }
