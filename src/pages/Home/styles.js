@@ -61,8 +61,10 @@ export const AreaCardsShop = styled.div`
   display: flex;
   gap: 1.5rem;
 
-  img {
-    width: 12rem;
+  @media only screen and (max-width: 600px) {
+    & {
+      flex-direction: column;
+    }
   }
 `;
 
@@ -72,6 +74,7 @@ export const ContentCardProduct = styled.div`
   gap: 0.3rem;
 
   img {
+    width: 8rem;
     margin-bottom: 0.75rem;
   }
 
@@ -84,9 +87,8 @@ export const CardProduct = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 30%;
   flex: 1;
-  padding: 1.2rem 1rem;
+  padding: 1rem;
 
   background-color: ${(props) => props.theme["gray-800"]};
   border-left: 6px solid ${(props) => props.theme["gray-600"]};
