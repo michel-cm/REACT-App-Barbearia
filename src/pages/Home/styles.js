@@ -14,18 +14,20 @@ export const AreaTitleSection = styled.div`
   }
 `;
 
-export const AreaServices = styled.div`
+export const AreaCards = styled.div`
   display: flex;
   gap: 1rem;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  margin-bottom: 3rem;
 
   img {
     width: 3rem;
   }
 `;
 
-export const CardService = styled.div`
+export const Card = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
