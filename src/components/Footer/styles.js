@@ -19,7 +19,7 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
     gap: 0.75rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 
     a {
       color: ${(props) => props.theme["gray-400"]};
