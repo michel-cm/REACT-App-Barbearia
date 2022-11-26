@@ -12,7 +12,7 @@ export const AreaTitleSection = styled.div`
   color: ${(props) => props.theme["gray-200"]};
 
   span {
-    color: ${(props) => props.theme["gray-100"]};
+    color: ${(props) => props.theme.secondary};
     font-weight: bold;
   }
 `;
@@ -38,12 +38,14 @@ export const Card = styled.div`
 
   padding: 1.2rem 1rem;
 
-  background-color: ${(props) => props.theme["gray-900"]};
-  border-left: 6px solid ${(props) => props.theme["gray-700"]};
+  background-color: ${(props) => props.theme["gray-800"]};
+  border-left: 6px solid ${(props) => props.theme["gray-600"]};
   border-radius: 0 5px 5px 0;
-  border-top: 2px solid ${(props) => props.theme["gray-700"]};
-  border-right: 2px solid ${(props) => props.theme["gray-800"]};
-  border-bottom: 2px solid ${(props) => props.theme["gray-800"]};
+
+  &:hover {
+    cursor: pointer;
+    border-left: 6px solid ${(props) => props.theme.secondary};
+  }
 
   @media only screen and (max-width: 768px) {
     & {
@@ -70,7 +72,7 @@ export const AreaCardsShop = styled.div`
   display: flex;
   gap: 1.5rem;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     & {
       flex-direction: column;
     }
@@ -97,14 +99,14 @@ export const CardProduct = styled.div`
   justify-content: center;
   align-items: center;
   flex: 1;
-  padding: 0.8rem 0;
+  padding: 1rem 0;
 
-  border-radius: 5px;
-  border: 2px solid ${(props) => props.theme["gray-800"]};
+  background-color: ${(props) => props.theme["gray-800"]};
+  border-left: 6px solid ${(props) => props.theme["gray-600"]};
+  border-radius: 0 5px 5px 0;
 
-  @media only screen and (max-width: 600px) {
-    & {
-      border-radius: 0 5px 5px 0;
-    }
+  &:hover {
+    cursor: pointer;
+    border-left: 6px solid ${(props) => props.theme.secondary};
   }
 `;
