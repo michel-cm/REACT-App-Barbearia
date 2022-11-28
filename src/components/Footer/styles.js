@@ -7,7 +7,7 @@ export const Container = styled.div`
   height: 50px;
   color: #fff;
   padding: 0rem 0.75rem;
- 
+
   position: fixed;
 
   bottom: 0;
@@ -31,6 +31,10 @@ export const Container = styled.div`
 
       border-top: 3px solid transparent;
       border-bottom: 3px solid transparent;
+
+      &:focus {
+        box-shadow: none;
+      }
 
       &:hover {
         border-bottom: 3px solid ${(props) => props.theme.secondary};

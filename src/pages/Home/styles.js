@@ -12,7 +12,7 @@ export const AreaTitleSection = styled.div`
   color: ${(props) => props.theme["gray-200"]};
 
   span {
-    color: ${(props) => props.theme.secondary};
+    color: ${(props) => props.theme.primary};
     font-weight: bold;
   }
 `;
